@@ -15,10 +15,10 @@ func main() {
 		if strings.Compare(os.Args[1], "-d") == 0 {
 			filename = os.Args[2]
 			decimalOption = 1
-		} else if strings.Compare(os.Args[1], "-d3") == 0 {
+		} else if strings.Compare(os.Args[1], "-3d") == 0 {
 			filename = os.Args[2]
 			decimalOption = 2
-		} else if strings.Compare(os.Args[1], "-d03") == 0 {
+		} else if strings.Compare(os.Args[1], "-03d") == 0 {
 			filename = os.Args[2]
 			decimalOption = 3
 		} else {
@@ -32,8 +32,8 @@ func main() {
 		fmt.Println("[Usage]")
 		fmt.Println("  ", os.Args[0][strings.LastIndexAny(os.Args[0], "/\\")+1:], "filename")
 		fmt.Println("  ", os.Args[0][strings.LastIndexAny(os.Args[0], "/\\")+1:], "-d", "filename", "\t\t: Decimal value.")
-		fmt.Println("  ", os.Args[0][strings.LastIndexAny(os.Args[0], "/\\")+1:], "-d3", "filename", "\t\t: 3-digit Decimal value with blank padding.")
-		fmt.Println("  ", os.Args[0][strings.LastIndexAny(os.Args[0], "/\\")+1:], "-d03", "filename", "\t\t: 3-digit Decimal value with 0 padding.")
+		fmt.Println("  ", os.Args[0][strings.LastIndexAny(os.Args[0], "/\\")+1:], "-3d", "filename", "\t\t: 3-digit Decimal value with blank padding.")
+		fmt.Println("  ", os.Args[0][strings.LastIndexAny(os.Args[0], "/\\")+1:], "-03d", "filename", "\t\t: 3-digit Decimal value with 0 padding.")
 		//filename = "test.txt"
 		return
 	}
