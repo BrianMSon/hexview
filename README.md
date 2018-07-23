@@ -49,5 +49,24 @@ or
 Size : 5074
 ```
 
+# Options
+[HexView] : Copyright by Brian SMG.
+
+[Usage] : hv FILENAME
+        : hv -l -v FILENAME
+[Option]
+   hv -d   FILENAME             : show as Decimal value.
+   hv -d3  FILENAME             : 3-digit Decimal value with blank padding.
+   hv -d03 FILENAME             : 3-digit Decimal value with 0 padding.
+   hv -l   FILENAME             : new Line at LF(0A).
+   hv -v   FILENAME             : Verbose output(size, LF dot).
+   hv -u   FILENAME             : \u mark UCS-2(UTF-16).
+   hv -n   FILENAME             : No space.
+   hv -c30 FILENAME             : set Column count(-c0 : No new line).
+   hv -o   OUTFILE 4A 5F...     : HEX string to Output file.
+   hv -i   INFILE               : Input HEX string file to output file.
+   hv -f30 FILENAME             : show From N-th(zero-based) offset.
+   hv -t90 FILENAME             : show To N-th(zero-based) offset.
+
 # License
 MIT
