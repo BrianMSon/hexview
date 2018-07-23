@@ -50,6 +50,7 @@ Size : 5074
 ```
 
 # Options
+```
 [HexView] : Copyright by Brian SMG.
 
 [Usage] : hv FILENAME
@@ -67,6 +68,7 @@ Size : 5074
    hv -i   INFILE               : Input HEX string file to output file.
    hv -f30 FILENAME             : show From N-th(zero-based) offset.
    hv -t90 FILENAME             : show To N-th(zero-based) offset.
+```
 
 # License
 MIT
