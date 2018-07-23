@@ -51,7 +51,7 @@ Size : 5074
 
 # Options
 ```
-[HexView] : Copyright by Brian SMG.
+[HexView] : Copyright by BrianMSon.
 
 [Usage] : hv FILENAME
         : hv -l -v FILENAME
